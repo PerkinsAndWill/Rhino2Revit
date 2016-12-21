@@ -18,9 +18,13 @@ http://sfdug.blogspot.com/2016/01/sfdug-february-2016-meeting-what-revit.html
 
 #Support:
 Dynamo version: 1.2
+
 Revit version: 2015, 2016, 2017
+
 Required Packages: Spring Nodes
+
 Last Update: 2016.12.08
+
 
 Author: Jeremy Luebker
 
