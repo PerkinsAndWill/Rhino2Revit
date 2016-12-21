@@ -1,28 +1,56 @@
 {
-  "title":"Write the name of your script here",
+  "title":"Rhino2Revit",
   "description":"Write a short description of what your script does here",
   "coverImage":"./_PW/cover.png",
   "authors":[{
-    "name":"Kyle Example",
-    "email":"kyle.example@example.com",
-    "role":"developer"
+    "name":"Jeremy Luebker",
+    "email":"jeremy.luebker@perkinswill.com",
+    "role":"Developer",
+    "name":"Luc Deckinga",
+    "email":"Luc.Deckinga@perkinswill.com",
+    "role":"Developer",
   }],
   "offices":[
-    "NewYork",
     "SanFrancisco"
   ],
   "projects":[{
-    "name":"Example Project",
-    "number":"123456.000",
-	"marketSector":"CCC"
+    "name":"Al-Marwa",
+    "number":"491422.000",
+	"marketSector":"Transit",
+    "name":"Genentech Pedestrian Bridge",
+    "number":"491606.002",
+	"marketSector":"Science and Technology",
+    "name":"1700 Webster",
+    "number":"491432.400",
+	"marketSector":"Coporate + Commcercial + Civic",
+
   }],
   "dependencies":[{
     "author":"Autodesk",
     "name":"Revit",
     "version":"2016"
+    "author":"Autodesk",
+    "name":"Revit",
+    "version":"2015"
+    "author":"Autodesk",
+    "name":"Revit",
+    "version":"2017"
+    "author":"Autodesk",
+    "name":"Dynamo",
+    "version":"1.2.1"
+    "author":"Dimitar Venkov",
+    "name":"Spring Nodes",
+    "version":"110.0.2"
+    "author":"McNeel",
+    "name":"Rhino",
+    "version":"5 SR12"
   }],
   "tags":[
     "boilerplate",
-    "example"
+    "Revit",
+    "Rhino",
+    "Dynamo",
+    "SAT",
+    "Import"
   ]
 }
