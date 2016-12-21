@@ -1,0 +1,210 @@
+<Workspace Version="1.2.0.2690" X="1147.76510880333" Y="-230.484647167137" zoom="0.464854772643055" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="False">
+  <NamespaceResolutionMap />
+  <Elements>
+    <CoreNodeModels.Input.Filename guid="cb61cf08-3ccf-4d21-b871-ae0dbf1dd874" type="CoreNodeModels.Input.Filename" nickname="File Path" x="-1555.99961408814" y="1077.57363642174" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>SAT\scultpture%202.sat</System.String>
+      <HintPath>C:\Users\LuebkerJ\Box Sync\AU 2016\2017.1 Test Files\SAT\scultpture 2.sat</HintPath>
+    </CoreNodeModels.Input.Filename>
+    <CoreNodeModels.FromObject guid="41aa6a81-341b-4b89-aca1-e933e855833c" type="CoreNodeModels.FromObject" nickname="String from Object" x="189.566979402552" y="1348.09050644568" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.FromObject>
+    <CoreNodeModels.HigherOrder.Map guid="8d1c77ac-e5f6-44a8-9df0-48f721b4bf0d" type="CoreNodeModels.HigherOrder.Map" nickname="List.Map" x="38.3405274187116" y="1324.94236155463" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </CoreNodeModels.HigherOrder.Map>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="eb517315-166f-482a-aaf9-c64cf1223cb4" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="IndexOf" x="-233.133336452857" y="1372.07721477345" isVisible="false" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="BuiltIn" function="IndexOf@var[]..[],var[]..[]">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <CoreNodeModels.HigherOrder.Map guid="08dfcd57-2f4a-42e5-9d92-551be0b787e5" type="CoreNodeModels.HigherOrder.Map" nickname="List.Map" x="397.40191539514" y="1405.27160199523" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </CoreNodeModels.HigherOrder.Map>
+    <CoreNodeModels.Input.StringInput guid="20081a08-a5e0-4210-a261-8da55bd611de" type="CoreNodeModels.Input.StringInput" nickname="String" x="-1.3484138993324" y="1507.53369271599" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>ImportedGeometry</System.String>
+      <System.String value="ImportedGeometry" />
+    </CoreNodeModels.Input.StringInput>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction guid="2ca8fff7-3c1d-4b21-b6e2-155ceb8a460c" type="Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction" nickname="String.Concat" x="169.525406293352" y="1467.36388137441" isVisible="false" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="DSCoreNodes.dll" function="DSCore.String.Concat@string[]" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="2ae95d4c-dcec-4719-91fa-6840ef083f8d" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-593.326346727554" y="1090.36510073601" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="geo;" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <DSRevitNodesUI.Categories guid="4799b348-bc61-4ec0-ba80-ddf5511a5d9e" type="DSRevitNodesUI.Categories" nickname="Categories" x="750.40732381472" y="1347.36514111409" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="211:Furniture" />
+    <CoreNodeModels.Input.StringInput guid="083c6bdb-1b48-46ba-8b2b-68929f46987d" type="CoreNodeModels.Input.StringInput" nickname="String" x="797.92375444201" y="1433.75555873325" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>Default Form</System.String>
+      <System.String value="Default Form" />
+    </CoreNodeModels.Input.StringInput>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="4d417981-9791-431a-b420-a0a584971cc6" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Geometry.Scale" x="-853.508121639498" y="1087.85689727969" isVisible="false" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Geometry.Scale@double">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="1bb43c49-5ba9-47ca-b268-745809c3cdb4" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Geometry.ImportFromSAT" x="-1247.44832497639" y="1080.07846488298" isVisible="false" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Geometry.ImportFromSAT@var">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <CoreNodeModels.Input.FileObject guid="1c822ac8-89ee-4bc3-8a1f-5fc47e88c7b7" type="CoreNodeModels.Input.FileObject" nickname="File.FromPath" x="-1367.82651552358" y="1078.9904976895" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Input.FileObject>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="8715a819-6567-464e-b9b5-c6760a77cef9" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Meters &gt; Feet" x="-997.917668108657" y="1156.68050843324" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="3.2808;" ShouldFocus="false" />
+    <CoreNodeModels.Watch guid="d7e584ab-e48f-42cd-9f4a-eee821331eb0" type="CoreNodeModels.Watch" nickname="Watch" x="567.815609303799" y="1467.89218084184" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Watch>
+    <CoreNodeModels.Input.StringInput guid="6dde3aaf-a6bd-4c04-a918-358846f4b3ae" type="CoreNodeModels.Input.StringInput" nickname="String" x="708.16714976112" y="1162.68787688333" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>C:\ProgramData\Autodesk\RVT 2017\Family Templates\English_I\Generic Model.rft</System.String>
+      <System.String value="C:\ProgramData\Autodesk\RVT 2017\Family Templates\English_I\Generic Model.rft" />
+    </CoreNodeModels.Input.StringInput>
+    <CoreNodeModels.Watch guid="aedab7c4-4361-4fab-9f7d-6df7d3b5be61" type="CoreNodeModels.Watch" nickname="Watch" x="-371.658188145753" y="1012.29466961994" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Watch>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="2dfdd9f1-cc40-4804-943d-e5d0f8abb648" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Springs.FamilyInstance.ByGeometry" x="1000.83466500558" y="1205.14773685694" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <PortInfo index="3" default="True" />
+      <PortInfo index="4" default="True" />
+      <PortInfo index="5" default="True" />
+      <PortInfo index="6" default="True" />
+      <ID value="ecdb3729-0de2-4c50-bdca-28fe881027a2" />
+      <Name value="Springs.FamilyInstance.ByGeometry" />
+      <Description value="You must provide a valid family template path that will be used for all input geometry objects. The project units(and not the templates) will be used to determine the size of the output geometry.&#xD;&#xA;The provided category will be used only if the family template supports it. If not, the default template category will be used instead.&#xD;&#xA;Likewise, the family material(provided as a string) will be set only if a material with that name exists in the template. If not, the default material will be used instead (&quot;By Category&quot;).&#xD;&#xA;For void cuts, the material settings will be ignored.&#xD;&#xA;The Subcategory name is an optional input. If you'd like to skip assigning a Subcategory to any new instance, simply use null.&#xD;&#xA;The node expects a unique family name for each geometry object. The rest of the input lists will be processed as if the node lacing is set to longest." />
+      <Inputs>
+        <Input value="geometry" />
+        <Input value="familyTemplatePath" />
+        <Input value="familyName" />
+        <Input value="category" />
+        <Input value="materialName" />
+        <Input value="isVoid" />
+        <Input value="subcategoryName" />
+      </Inputs>
+      <Outputs>
+        <Output value="instance" />
+        <Output value="family" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <CoreNodeModels.Input.StringInput guid="b5819d78-a366-4e13-a6bf-0f30e771d7e9" type="CoreNodeModels.Input.StringInput" nickname="String" x="728.082151562289" y="1633.93176271879" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>C:\ProgramData\Autodesk\RAC 2015\Family Templates\English_I\Generic Model.rft</System.String>
+      <System.String value="C:\ProgramData\Autodesk\RAC 2015\Family Templates\English_I\Generic Model.rft" />
+    </CoreNodeModels.Input.StringInput>
+    <CoreNodeModels.Input.StringInput guid="1178e70f-d150-4d8c-b0ca-81b1c66a6e30" type="CoreNodeModels.Input.StringInput" nickname="String" x="731.726021179549" y="1548.29514268288" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>C:\ProgramData\Autodesk\RAC 2015\Family Templates\English_I\Generic Model.rft</System.String>
+      <System.String value="C:\ProgramData\Autodesk\RAC 2015\Family Templates\English_I\Generic Model.rft" />
+    </CoreNodeModels.Input.StringInput>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="f24cd63f-8259-40f0-ba0b-2dcec29d564d" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-359.273460208318" y="1315.73189100751" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="geo;" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="bdf3d17a-1b24-4141-a8d7-26e8c68ac247" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="724.70788401257" y="1254.63091841359" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="geo_names;" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="7e5bc1ec-96c4-4f7c-a89d-3ceb887ae596" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="805.29130414975" y="1082.30137202022" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="geo;" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="cb61cf08-3ccf-4d21-b871-ae0dbf1dd874" start_index="0" end="1c822ac8-89ee-4bc3-8a1f-5fc47e88c7b7" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="41aa6a81-341b-4b89-aca1-e933e855833c" start_index="0" end="08dfcd57-2f4a-42e5-9d92-551be0b787e5" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8d1c77ac-e5f6-44a8-9df0-48f721b4bf0d" start_index="0" end="41aa6a81-341b-4b89-aca1-e933e855833c" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="eb517315-166f-482a-aaf9-c64cf1223cb4" start_index="0" end="8d1c77ac-e5f6-44a8-9df0-48f721b4bf0d" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="08dfcd57-2f4a-42e5-9d92-551be0b787e5" start_index="0" end="d7e584ab-e48f-42cd-9f4a-eee821331eb0" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="08dfcd57-2f4a-42e5-9d92-551be0b787e5" start_index="0" end="bdf3d17a-1b24-4141-a8d7-26e8c68ac247" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="20081a08-a5e0-4210-a261-8da55bd611de" start_index="0" end="2ca8fff7-3c1d-4b21-b6e2-155ceb8a460c" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2ca8fff7-3c1d-4b21-b6e2-155ceb8a460c" start_index="0" end="08dfcd57-2f4a-42e5-9d92-551be0b787e5" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2ae95d4c-dcec-4719-91fa-6840ef083f8d" start_index="0" end="aedab7c4-4361-4fab-9f7d-6df7d3b5be61" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2ae95d4c-dcec-4719-91fa-6840ef083f8d" start_index="0" end="f24cd63f-8259-40f0-ba0b-2dcec29d564d" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2ae95d4c-dcec-4719-91fa-6840ef083f8d" start_index="0" end="7e5bc1ec-96c4-4f7c-a89d-3ceb887ae596" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4799b348-bc61-4ec0-ba80-ddf5511a5d9e" start_index="0" end="2dfdd9f1-cc40-4804-943d-e5d0f8abb648" end_index="3" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="083c6bdb-1b48-46ba-8b2b-68929f46987d" start_index="0" end="2dfdd9f1-cc40-4804-943d-e5d0f8abb648" end_index="4" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4d417981-9791-431a-b420-a0a584971cc6" start_index="0" end="2ae95d4c-dcec-4719-91fa-6840ef083f8d" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1bb43c49-5ba9-47ca-b268-745809c3cdb4" start_index="0" end="4d417981-9791-431a-b420-a0a584971cc6" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1c822ac8-89ee-4bc3-8a1f-5fc47e88c7b7" start_index="0" end="1bb43c49-5ba9-47ca-b268-745809c3cdb4" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8715a819-6567-464e-b9b5-c6760a77cef9" start_index="0" end="4d417981-9791-431a-b420-a0a584971cc6" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="6dde3aaf-a6bd-4c04-a918-358846f4b3ae" start_index="0" end="2dfdd9f1-cc40-4804-943d-e5d0f8abb648" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f24cd63f-8259-40f0-ba0b-2dcec29d564d" start_index="0" end="eb517315-166f-482a-aaf9-c64cf1223cb4" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f24cd63f-8259-40f0-ba0b-2dcec29d564d" start_index="0" end="8d1c77ac-e5f6-44a8-9df0-48f721b4bf0d" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="bdf3d17a-1b24-4141-a8d7-26e8c68ac247" start_index="0" end="2dfdd9f1-cc40-4804-943d-e5d0f8abb648" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7e5bc1ec-96c4-4f7c-a89d-3ceb887ae596" start_index="0" end="2dfdd9f1-cc40-4804-943d-e5d0f8abb648" end_index="0" portType="0" />
+  </Connectors>
+  <Notes>
+    <Dynamo.Graph.Notes.NoteModel guid="35c17b70-707e-4f56-9bf8-c149ea3ee950" text="SUPPORT&#xD;&#xA;________________________________________________________&#xD;&#xA;&#xD;&#xA;Dynamo version: 1.2&#xD;&#xA;Revit version: 2015, 2016, 2017&#xD;&#xA;Required Packages: Spring Nodes&#xD;&#xA;Last Update: 2016.12.08&#xD;&#xA;&#xD;&#xA;Author: Jeremy Luebker" x="-2301.2101533409" y="877.98773708344" />
+    <Dynamo.Graph.Notes.NoteModel guid="efe74798-de09-47c6-8370-1232dd7fee12" text="INSTRUCTIONS&#xD;&#xA;________________________________________________________&#xD;&#xA;&#xD;&#xA;Step 1)	Make sure your Rhino geometry are all 	close polysurface (extrusions such as boxes 	or cylinders do not currently work with this 	method).&#xD;&#xA;&#xD;&#xA;Step 2) 	Export the geomety as an .SAT file, make 	sure your file units are in Feet.&#xD;&#xA;&#xD;&#xA;Step 3)	Use the input browse node to navigate and 	select the SAT file.&#xD;&#xA;&#xD;&#xA;Step 4) 	To execute the import, hit the RUN button 	in the lower left corner of the Dynamo 	screen. &#xD;&#xA;&#xD;&#xA;Step 5) 	Change Default Form Material to have a 	poche color and solid fill: in Revit, Manage 	&gt; Materials &gt; Graphics&#xD;&#xA;&#xD;&#xA;Step 6) Set the Default Form material to be the default material for the Generic Model Category: in Revit, Manage &gt; Object Styles &gt; Generic Model &gt; Material&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*** NOTE: If you are importing many solids, it may take a little while to import each, so be patient." x="-2301.2101533409" y="1037.48323833079" />
+    <Dynamo.Graph.Notes.NoteModel guid="fdd1051d-6c25-4bf0-99c3-abd4b01654fe" text="NOTES / ISSUES&#xD;&#xA;________________________________________________________&#xD;&#xA;&#xD;&#xA;This workflow is still very much a work-in-progress and my not work every time. Even if all your Rhino geometry is completely water-tight, they still may not import correctly (it has happened but not often).&#xD;&#xA;&#xD;&#xA;Every solid in the SAT will be imported as a seperate Revit family. Solids can be joined into one family, however, the best practice would be to boolean-union the elements into one solid in rhino before importing.&#xD;&#xA;" x="-2303.19560708017" y="1509.09286870727" />
+    <Dynamo.Graph.Notes.NoteModel guid="e1de0695-f2a8-4bf5-8e7e-dee5e1fa28d6" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR BACK-END FUNCTIONALITY       " x="-1951.20176192901" y="1297.59183069016" />
+    <Dynamo.Graph.Notes.NoteModel guid="8c9b9753-4a44-49d2-8503-0b7faf80dca5" text="_______________________________________________________&#xD;&#xA;&#xD;&#xA;1. DIVIDE THE SCRIPT INTO THE USER INTERFACE AND THE BACK-END&#xD;&#xA;&#xD;&#xA;2. BUILD THE SCRIPT WITH SMALL GROUPS OF NODES&#xD;&#xA;&#xD;&#xA;3. GROUPS SHOULD ALWAYS HAVE INPUT/OUTPUT &#xD;&#xA;&#xD;&#xA;4. RENAME INPUT/OUTPUT CONTAINERS TO DATA THEY CARRY&#xD;&#xA;&#xD;&#xA;5. COLOR-CODE GROUPS ACCORDING TO THE CATEGORIES IN THE TEMPLATE" x="-1954.61072253847" y="978.464658833968" />
+    <Dynamo.Graph.Notes.NoteModel guid="1fba383f-f5ad-495a-b70b-3ab3144cc6c2" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR USER INPUT (SUCH AS SLIDERS,    &#xD;&#xA; NUMBERS, ....)" x="-1951.20176192901" y="1438.13928945019" />
+    <Dynamo.Graph.Notes.NoteModel guid="5fe9edad-b057-460a-ad6b-8274aba887b0" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR INCOMMING REFFERENCES&#xD;&#xA;(FILE PATHS, GEOMETRIES...)" x="-1951.20176192901" y="1602.17022548817" />
+    <Dynamo.Graph.Notes.NoteModel guid="99d46471-35e4-40f9-92a8-f556821173f5" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR BLOCKS THAT EXPORT GEOMETRY AND DATA TO EXTERNAL PROGRAMS (INCLUDING REVIT)" x="-1953.16027378525" y="1754.99733287018" />
+    <Dynamo.Graph.Notes.NoteModel guid="a586792b-8c2b-4b1e-a7b4-a2be3f33bd26" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR IMPORTANT WATCH NODES     " x="-1951.20176192901" y="1901.84260552869" />
+    <Dynamo.Graph.Notes.NoteModel guid="3e86ea32-2148-41ae-aa50-5b5468de7bd4" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR COMMENTS    " x="-1943.36771450404" y="2039.56953364256" />
+    <Dynamo.Graph.Notes.NoteModel guid="6407d959-f2f4-489c-a9be-049271f7cee6" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR &quot;WORK IN PROGRESS&quot;" x="-1943.36771450404" y="2180.37810426131" />
+  </Notes>
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="35e03617-a58e-4831-b4d7-5bafaf209ba5" annotationText="Navigate  to and select the SAT file. Make sure the file units is in Feet." left="-1565.99961408814" top="894.573636421738" width="149" height="275" fontSize="24" InitialTop="1077.57363642174" InitialHeight="124" TextblockHeight="173" backgrouund="#FFC1D676">
+      <Models ModelGuid="cb61cf08-3ccf-4d21-b871-ae0dbf1dd874" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="09b6e482-fb20-447d-ade7-4634162f774d" annotationText="Spring Nodes (with custom addition)" left="990.834665005579" top="1175.14773685694" width="298" height="279" fontSize="14" InitialTop="1205.14773685694" InitialHeight="793.22455590935" TextblockHeight="20" backgrouund="#FFFFAA45">
+      <Models ModelGuid="2dfdd9f1-cc40-4804-943d-e5d0f8abb648" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="6d691001-2455-44c6-b06d-43984fa1d772" annotationText="Import SAT file from link" left="-1377.82651552358" top="1039.9904976895" width="354.37819054719" height="133.087967193481" fontSize="24" InitialTop="1078.9904976895" InitialHeight="213.845669885125" TextblockHeight="29" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="1bb43c49-5ba9-47ca-b268-745809c3cdb4" />
+      <Models ModelGuid="1c822ac8-89ee-4bc3-8a1f-5fc47e88c7b7" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="195c55aa-7dab-4a75-8b5f-bde0f9eb681d" annotationText="Correct SAT import scale bug" left="-1007.91766810866" top="1048.85689727969" width="395.409546469159" height="200.823611153551" fontSize="24" InitialTop="1087.85689727969" InitialHeight="191.823611153551" TextblockHeight="29" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="4d417981-9791-431a-b420-a0a584971cc6" />
+      <Models ModelGuid="8715a819-6567-464e-b9b5-c6760a77cef9" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="d5580fde-f4fd-4e43-ae86-df787764dbd6" annotationText="Make a unique name for every solid in the imported file." left="-369.273460208318" top="1276.73189100751" width="1029.08906951212" height="309.6319903669" fontSize="24" InitialTop="1315.73189100751" InitialHeight="299.993376232392" TextblockHeight="29" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="41aa6a81-341b-4b89-aca1-e933e855833c" />
+      <Models ModelGuid="8d1c77ac-e5f6-44a8-9df0-48f721b4bf0d" />
+      <Models ModelGuid="eb517315-166f-482a-aaf9-c64cf1223cb4" />
+      <Models ModelGuid="08dfcd57-2f4a-42e5-9d92-551be0b787e5" />
+      <Models ModelGuid="2ca8fff7-3c1d-4b21-b6e2-155ceb8a460c" />
+      <Models ModelGuid="d7e584ab-e48f-42cd-9f4a-eee821331eb0" />
+      <Models ModelGuid="f24cd63f-8259-40f0-ba0b-2dcec29d564d" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="0611df5b-0af1-42cc-86b4-3a66090c817c" annotationText="You can change the name of the family prefix here if you wish." left="-11.3484138993324" top="1447.53369271599" width="154" height="128" fontSize="14" InitialTop="1507.53369271599" InitialHeight="98" TextblockHeight="50" backgrouund="#FFC1D676">
+      <Models ModelGuid="20081a08-a5e0-4210-a261-8da55bd611de" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="2fe47b79-4fec-47d0-a7a0-7e289eebf0d3" annotationText="Add some necessary information to the geometry..." left="698.16714976112" top="986.301372020219" width="243.91500180117" height="740.630390698569" fontSize="24" InitialTop="1082.30137202022" InitialHeight="682.554476171616" TextblockHeight="86" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="4799b348-bc61-4ec0-ba80-ddf5511a5d9e" />
+      <Models ModelGuid="083c6bdb-1b48-46ba-8b2b-68929f46987d" />
+      <Models ModelGuid="6dde3aaf-a6bd-4c04-a918-358846f4b3ae" />
+      <Models ModelGuid="b5819d78-a366-4e13-a6bf-0f30e771d7e9" />
+      <Models ModelGuid="1178e70f-d150-4d8c-b0ca-81b1c66a6e30" />
+      <Models ModelGuid="bdf3d17a-1b24-4141-a8d7-26e8c68ac247" />
+      <Models ModelGuid="7e5bc1ec-96c4-4f7c-a89d-3ceb887ae596" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="bf420052-6e4c-4ba1-b776-3597f5aecd11" annotationText="RHINO IMPORTER FOR REVIT&#xD;&#xA;&#xD;&#xA;PERKINS+WILL" left="-2313.19560708017" top="694.98773708344" width="320.985453739271" height="1046.10513162383" fontSize="36" InitialTop="877.98773708344" InitialHeight="413.873377439255" TextblockHeight="173" backgrouund="#FF48B9FF">
+      <Models ModelGuid="35c17b70-707e-4f56-9bf8-c149ea3ee950" />
+      <Models ModelGuid="efe74798-de09-47c6-8370-1232dd7fee12" />
+      <Models ModelGuid="fdd1051d-6c25-4bf0-99c3-abd4b01654fe" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="3ab5d302-d150-4f85-929a-81184e372ae8" annotationText="DESIGN" left="-1961.20176192901" top="1244.59183069016" width="319" height="126" fontSize="36" InitialTop="1297.59183069016" InitialHeight="140" TextblockHeight="43" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="e1de0695-f2a8-4bf5-8e7e-dee5e1fa28d6" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="cf282b4e-d7e2-4d5d-b7a9-ea5cec957d9b" annotationText="GOOD PRACTICE GUIDELINES" left="-1964.61072253847" top="882.464658833968" width="316" height="342" fontSize="36" InitialTop="978.464658833968" InitialHeight="140" TextblockHeight="86" backgrouund="#FF48B9FF">
+      <Models ModelGuid="8c9b9753-4a44-49d2-8503-0b7faf80dca5" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="6ac06fde-fbc9-4c61-af7a-b882dfa6cc76" annotationText="CONTROL" left="-1961.20176192901" top="1385.13928945019" width="319" height="141" fontSize="36" InitialTop="1438.13928945019" InitialHeight="140" TextblockHeight="43" backgrouund="#FFC1D676">
+      <Models ModelGuid="1fba383f-f5ad-495a-b70b-3ab3144cc6c2" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="ee658f0e-190c-4524-be47-f86b8b02a938" annotationText="INPUT" left="-1961.20176192901" top="1549.17022548817" width="319" height="141" fontSize="36" InitialTop="1602.17022548817" InitialHeight="140" TextblockHeight="43" backgrouund="#FFD4B6DB">
+      <Models ModelGuid="5fe9edad-b057-460a-ad6b-8274aba887b0" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="c32b9284-03cb-4c46-8c4f-6e6c48917c61" annotationText="OUTPUT" left="-1963.16027378525" top="1701.99733287018" width="319" height="141" fontSize="36" InitialTop="1754.99733287018" InitialHeight="140" TextblockHeight="43" backgrouund="#FFFFAA45">
+      <Models ModelGuid="99d46471-35e4-40f9-92a8-f556821173f5" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="6ad888f3-2b5a-42f3-981b-06f4f50cb087" annotationText="MONITOR" left="-1961.20176192901" top="1848.84260552869" width="319" height="126" fontSize="36" InitialTop="1901.84260552869" InitialHeight="140" TextblockHeight="43" backgrouund="#FFA4E1FF">
+      <Models ModelGuid="a586792b-8c2b-4b1e-a7b4-a2be3f33bd26" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="4bb151c4-83bf-4c28-b9ca-30f36409765d" annotationText="ANNOTATION" left="-1953.36771450404" top="1986.56953364256" width="319" height="126" fontSize="36" InitialTop="2039.56953364256" InitialHeight="140" TextblockHeight="43" backgrouund="#FF48B9FF">
+      <Models ModelGuid="3e86ea32-2148-41ae-aa50-5b5468de7bd4" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="be2aac98-dca0-4f26-a06d-2e59c2d4622e" annotationText="WIP" left="-1953.36771450404" top="2127.37810426131" width="319" height="126" fontSize="36" InitialTop="2180.37810426131" InitialHeight="140" TextblockHeight="43" backgrouund="#FFFF7BAC">
+      <Models ModelGuid="6407d959-f2f4-489c-a9be-049271f7cee6" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="144.69580078125" eyeY="181.500579833984" eyeZ="9.33009815216064" lookX="-144.69580078125" lookY="-181.500579833984" lookZ="-9.33009815216064" upX="-0.628016173839569" upY="0.777145981788635" upZ="-0.0404949747025967" />
+  </Cameras>
+</Workspace>
