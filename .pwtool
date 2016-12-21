@@ -1,56 +1,57 @@
 {
-  "title":"Rhino2Revit",
-  "description":"Use this workflow to import geometry from Rhino into Revit as native geometry.",
-  "coverImage":"./_PW/Rhino2Revit.png",
-  "authors":[{
-    "name":"Jeremy Luebker",
-    "email":"jeremy.luebker@perkinswill.com",
-    "role":"Developer",
-    "name":"Luc Deckinga",
-    "email":"Luc.Deckinga@perkinswill.com",
-    "role":"Developer",
-  }],
-  "offices":[
-    "SanFrancisco"
-  ],
-  "projects":[{
-    "name":"Al-Marwa",
-    "number":"491422.000",
-	"marketSector":"Transit",
-    "name":"Genentech Pedestrian Bridge",
-    "number":"491606.002",
-	"marketSector":"Science and Technology",
-    "name":"1700 Webster",
-    "number":"491432.400",
-	"marketSector":"Coporate + Commcercial + Civic",
+	"title": "Rhino2Revit",
+	"description": "Use this workflow to import geometry from Rhino into Revit as native geometry.",
+	"coverImage": "./_PW/Rhino2Revit.png",
+	"authors": [{
+		"name": "Jeremy Luebker",
+		"email": "jeremy.luebker@perkinswill.com",
+		"role": "Developer",
+		"name 2": "Luc Deckinga",
+		"email 2": "Luc.Deckinga@perkinswill.com",
+		"role 2": "Developer"
 
-  }],
-  "dependencies":[{
-    "author":"Autodesk",
-    "name":"Revit",
-    "version":"2016"
-    "author":"Autodesk",
-    "name":"Revit",
-    "version":"2015"
-    "author":"Autodesk",
-    "name":"Revit",
-    "version":"2017"
-    "author":"Autodesk",
-    "name":"Dynamo",
-    "version":"1.2.1"
-    "author":"Dimitar Venkov",
-    "name":"Spring Nodes",
-    "version":"110.0.2"
-    "author":"McNeel",
-    "name":"Rhino",
-    "version":"5 SR12"
-  }],
-  "tags":[
-    "boilerplate",
-    "Revit",
-    "Rhino",
-    "Dynamo",
-    "SAT",
-    "Import"
-  ]
+	}],
+	"offices": [
+		"SanFrancisco"
+	],
+	"projects": [{
+		"name": "Al-Marwa",
+		"number": "491422.000",
+		"marketSector": "Transit",
+		"name 2": "Genentech Pedestrian Bridge",
+		"number 2": "491606.002",
+		"marketSector 2": "Science and Technology",
+		"name 3": "1700 Webster",
+		"number 3": "491432.400",
+		"marketSector 3": "Coporate + Commcercial + Civic"
+
+	}],
+	"dependencies": [{
+		"author": "Autodesk",
+		"name": "Revit",
+		"version": "2016",
+		"author2": "Autodesk",
+		"name2": "Revit",
+		"version2": "2015",
+		"author3": "Autodesk",
+		"name3": "Revit",
+		"version3": "2017",
+		"author4": "Autodesk",
+		"name4": "Dynamo",
+		"versio4n": "1.2.1",
+		"author5": "Dimitar Venkov",
+		"name5": "Spring Nodes",
+		"version5": "110.0.2",
+		"author6": "McNeel",
+		"name6": "Rhino",
+		"version6": "5 SR12"
+	}],
+	"tags": [
+		"boilerplate",
+		"Revit",
+		"Rhino",
+		"Dynamo",
+		"SAT",
+		"Import"
+	]
 }
