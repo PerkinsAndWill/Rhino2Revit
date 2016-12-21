@@ -1,7 +1,7 @@
 {
   "title":"Rhino2Revit",
   "description":"Write a short description of what your script does here",
-  "coverImage":"./_PW/cover.png",
+  "coverImage":"./_PW/Rhino2Revit.png",
   "authors":[{
     "name":"Jeremy Luebker",
     "email":"jeremy.luebker@perkinswill.com",
