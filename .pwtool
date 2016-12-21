@@ -1,6 +1,6 @@
 {
   "title":"Rhino2Revit",
-  "description":"Write a short description of what your script does here",
+  "description":"Use this workflow to import geometry from Rhino into Revit as native geometry.",
   "coverImage":"./_PW/Rhino2Revit.png",
   "authors":[{
     "name":"Jeremy Luebker",
